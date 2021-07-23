@@ -17,3 +17,12 @@ print(seha_house.rooms)
 print(seha_house.bathrooms)
 print(seha_house.has_garage)
 print(seha_house.total_num_of_rooms)
+
+
+class Hotel(House):
+    pass
+
+
+seha_hotel = Hotel(num_rooms=25, num_bathrooms=35, has_garage=True)
+print(seha_hotel.total_num_of_rooms)
+
